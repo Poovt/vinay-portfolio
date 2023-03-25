@@ -379,6 +379,11 @@ content: 'Read Less';
     gap: 2.5rem;
     margin-top: 5rem;
 }
+@media(max-width:520px){
+    .services-content{
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+}
 .box{
     background: var(--bg-color);
     padding: 35px 45px;
