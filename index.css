@@ -215,7 +215,7 @@ header.sticky{
     border-bottom: 1px solid #ffffff1a;
     padding: 12px 15%;
 }
-.about{
+ .about{
     display: flex;
     flex-direction: column;
     gap: 90px;
@@ -355,7 +355,10 @@ content: 'Read Less';
     font-size: var(--p-font);
     line-height: 1.8;
     margin-bottom: 4rem;
-}
+} 
+
+
+/* Services */
 .services{
     background: var(--second-bg-color);
 
@@ -428,6 +431,8 @@ content: 'Read Less';
     transform: translateY(-8px);
     cursor: pointer;
 }
+
+/* Portfolio--------------------------------------------------- */
 .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -496,6 +501,8 @@ content: 'Read Less';
 .row:hover .layer{
     height: 100%;
 }
+
+/* Contact */
 
 .contact{
     background: var(--second-bg-color);
